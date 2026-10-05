@@ -1,0 +1,9 @@
+Penjelasan untuk menjawab pertanyaan dosen/asisten:
+- class PersegiPanjang: cetakan untuk membuat objek persegi panjang.
+- __init__: dipanggil otomatis ketika objek dibuat untuk mengisi panjang dan lebar.
+- self: merujuk pada objek yang sedang digunakan.
+- self.panjang dan self.lebar: atribut yang menyimpan ukuran setiap objek.
+- keliling(): menghitung 2 × (panjang + lebar).
+- luas(): menghitung panjang × lebar.
+- __str__: mengembalikan representasi string objek, otomatis digunakan saat print(persegi).
+- PersegiPanjang(3, 2): membuat objek dengan panjang 3 cm dan lebar 2 cm.
