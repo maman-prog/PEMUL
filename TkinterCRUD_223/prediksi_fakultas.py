@@ -194,6 +194,9 @@ hasil = tk.Label(
 )
 hasil.pack(pady=5)
 
+# Menjalankan aplikasi
+top.mainloop()
+
 
 
 
