@@ -141,4 +141,17 @@ tk.Label(
 entry_biologi = tk.Entry(frame, width=22)
 entry_biologi.grid(row=1, column=1, padx=10, pady=10)
 
+# Input nilai Fisika
+tk.Label(
+    frame,
+    text="Nilai Fisika",
+    font=("Arial", 11),
+    bg="#F0F4F8",
+    width=15,
+    anchor="w"
+).grid(row=2, column=0, padx=10, pady=10)
+
+entry_fisika = tk.Entry(frame, width=22)
+entry_fisika.grid(row=2, column=1, padx=10, pady=10)
+
 
