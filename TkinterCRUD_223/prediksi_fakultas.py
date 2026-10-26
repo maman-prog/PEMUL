@@ -197,7 +197,8 @@ hasil.pack(pady=5)
 # Menjalankan aplikasi
 top.mainloop()
 
-
+# Menutup koneksi database setelah jendela ditutup
+conn.close()
 
 
 
