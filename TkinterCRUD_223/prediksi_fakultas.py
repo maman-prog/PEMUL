@@ -128,5 +128,17 @@ tk.Label(
 
 entry_nama = tk.Entry(frame, width=22)
 entry_nama.grid(row=0, column=1, padx=10, pady=10)
+# Input nilai Biologi
+tk.Label(
+    frame,
+    text="Nilai Biologi",
+    font=("Arial", 11),
+    bg="#F0F4F8",
+    width=15,
+    anchor="w"
+).grid(row=1, column=0, padx=10, pady=10)
+
+entry_biologi = tk.Entry(frame, width=22)
+entry_biologi.grid(row=1, column=1, padx=10, pady=10)
 
 
