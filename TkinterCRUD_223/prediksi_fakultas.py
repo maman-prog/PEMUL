@@ -168,6 +168,19 @@ entry_inggris = tk.Entry(frame, width=22)
 entry_inggris.grid(row=3, column=1, padx=10, pady=10)
 
 
-
+# Tombol submit
+tombol = tk.Button(
+    top,
+    text="Submit Nilai",
+    command=submitNilai,
+    font=("Arial", 11, "bold"),
+    bg="#1E3A5F",
+    fg="white",
+    activebackground="#294F7A",
+    activeforeground="white",
+    width=20,
+    cursor="hand2"
+)
+tombol.pack(pady=15)
 
 
