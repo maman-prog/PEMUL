@@ -154,4 +154,20 @@ tk.Label(
 entry_fisika = tk.Entry(frame, width=22)
 entry_fisika.grid(row=2, column=1, padx=10, pady=10)
 
+# Input nilai Inggris
+tk.Label(
+    frame,
+    text="Nilai Inggris",
+    font=("Arial", 11),
+    bg="#F0F4F8",
+    width=15,
+    anchor="w"
+).grid(row=3, column=0, padx=10, pady=10)
+
+entry_inggris = tk.Entry(frame, width=22)
+entry_inggris.grid(row=3, column=1, padx=10, pady=10)
+
+
+
+
 
