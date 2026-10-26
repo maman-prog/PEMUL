@@ -100,3 +100,14 @@ top.resizable(False, False)
 top.configure(bg="#F0F4F8")
 
 
+# Label judul
+judul = tk.Label(
+    top,
+    text="Aplikasi Prediksi Fakultas",
+    font=("Arial", 16, "bold"),
+    bg="#F0F4F8",
+    fg="#1E3A5F"
+)
+judul.pack(pady=20)
+
+
