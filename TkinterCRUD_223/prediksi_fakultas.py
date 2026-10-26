@@ -92,3 +92,11 @@ def submitNilai():
         )
 
 
+# Membuat jendela utama
+top = tk.Tk()
+top.title("Aplikasi Prediksi Fakultas")
+top.geometry("420x450")
+top.resizable(False, False)
+top.configure(bg="#F0F4F8")
+
+
