@@ -184,3 +184,18 @@ tombol = tk.Button(
 tombol.pack(pady=15)
 
 
+# Label hasil prediksi
+hasil = tk.Label(
+    top,
+    text="Hasil Prediksi: -",
+    font=("Arial", 12, "bold"),
+    bg="#F0F4F8",
+    fg="#167D4A"
+)
+hasil.pack(pady=5)
+
+
+
+
+
+
