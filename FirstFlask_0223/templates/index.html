@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask POST</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <main class="card">
+        <header class="card-header">
+            <span class="eyebrow">Flask POST Request</span>
+            <h1>Form Input Nama</h1>
+            <p>Masukkan nama Anda untuk mengirim data melalui metode POST.</p>
+        </header>
+
+        <div class="divider"></div>
+
+        <form action="/proses" method="POST">
+            <div class="form-group">
+                <label for="nama">Masukkan Nama</label>
+                <input
+                    type="text"
+                    id="nama"
+                    name="nama"
+                    placeholder="Masukkan nama Anda"
+                    required
+                    autocomplete="off"
+                >
+            </div>
+            <button type="submit">Kirim Data</button>
+        </form>
+
+        {% if nama %}
+        <div class="alert-success" role="status">
+            <span class="alert-dot"></span>
+            <div>Halo, <strong>{{ nama }}</strong>! Data berhasil dikirim menggunakan POST.</div>
+        </div>
+        {% endif %}
+    </main>
+
+</body>
+</html>
