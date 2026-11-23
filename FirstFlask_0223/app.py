@@ -16,3 +16,5 @@ def proses():
     return render_template("index.html", nama=nama)
 
 
+if __name__ == "__main__":
+    app.run(debug=True)
